@@ -18,15 +18,15 @@
     <p class="lead">Here is my SMS.</p>
     <hr class="my-4">
     <p>It uses Python, Flask, Bootstrap and SQlite. </p>
-    <a class="btn btn-primary btn-lg" href="{{ url_for('home_page') }}" role="button">Home</a>
+    <a class="btn btn-primary btn-lg" href="{{ url_for('logout') }}" role="button">Logout</a>
     <a class="btn btn-primary btn-lg" href="{{ url_for('add_student') }}" role="button">Add student</a>
-    <a class="btn btn-primary btn-lg" href="{{ url_for('login') }}" role="button">Login</a>
-    <a class="btn btn-primary btn-lg" href="{{ url_for('register') }}" role="button">Register</a>
+    <!--    <a class="btn btn-primary btn-lg" href="{{ url_for('login') }}" role="button">Login</a>-->
+    <!--    <a class="btn btn-primary btn-lg" href="{{ url_for('register') }}" role="button">Register</a>-->
 </div>
 
-{% for student in student_data %}
-<p>{{ student[0] }} {{ student[1] }}</p>
-{% endfor %}
+<!--{% for student in student_data %}-->
+<!--<p>{{ student[0] }} {{ student[1] }}</p>-->
+<!--{% endfor %}-->
 
 <table class="table table-striped">
     <thead>
